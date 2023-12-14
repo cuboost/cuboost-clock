@@ -33,6 +33,10 @@
     @apply py-5 leading-8 text-slate-200;
   }
 
+  input {
+    @apply rounded-full border-none bg-slate-50/90 p-1 px-3 text-black outline-none duration-200 focus-visible:shadow-md;
+  }
+
   label {
     @apply cursor-pointer text-xl;
   }
