@@ -62,7 +62,7 @@ export default function Home() {
       minutes: localDate.getMinutes().toString().padStart(2, "0"),
       seconds: localDate.getSeconds().toString().padStart(2, "0"),
       day: localDate.getDate().toString().padStart(2, "0"),
-      month: localDate.getMonth().toString().padStart(2, "0"),
+      month: (localDate.getMonth() + 1).toString().padStart(2, "0"),
       year: localDate.getFullYear(),
     };
   }
